@@ -1,0 +1,19 @@
+{
+  "name": "deseval_mod7secc1_alwaysmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node queries/queries.js",
+    "dev": "node --watch queries/queries.js"
+  },
+  "keywords": [],
+  "author": "Luis Felipe González",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "pg": "^8.11.5"
+  }
+}
